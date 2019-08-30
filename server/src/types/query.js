@@ -28,8 +28,10 @@ export const typeDefs = [
       author: String,
       createdAt: DateTime
     ): Tweet
+
     # Mutation to delete a Tweet
     deleteTweet(_id: String): Tweet
+    
     # Mutation to update a Tweet (! means mandatory).
     updateTweet(
       _id: String!,

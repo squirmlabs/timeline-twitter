@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 
 // Connecting to Mongo
 mongoose.Promise = global.Promise;
+
 mongoose.connect('mongodb://localhost:27017/twitter', {
   useNewUrlParser: true
 });
@@ -62,9 +63,12 @@ export default {
         }
       }
     );
+
     // This is hard coded for now
-    args.author = 'codejobs';
+    args.author = 'squirm';
+
     args.createdAt = new Date();
+    
     // Returning the updated Tweet
     return args;
   }
