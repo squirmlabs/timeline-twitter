@@ -1,0 +1,48 @@
+{
+  "name": "timeline-twitter",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apollo-boost": "^0.4.4",
+    "graphql": "^14.5.4",
+    "graphql-tag": "^2.10.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.6.11",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1",
+    "reactapollo": "0.0.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "resolutions": {
+    "graphql": "14.5.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-function-bind": "^7.2.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.5.0",
+    "@babel/preset-react": "^7.0.0",
+    "customize-cra": "^0.5.0",
+    "react-app-rewired": "^2.1.3"
+  }
+}
