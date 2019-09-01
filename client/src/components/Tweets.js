@@ -2,8 +2,9 @@
 import React, { Component } from 'react';
 
 // Components
-import Tweet from './Tweet';
-import CreateTweet from './CreateTweet';
+import Tweet from './Tweet.func';
+// import Tweet from './Tweet';
+import CreateTweet from './CreateTweet.func';
 import Query from '../shared/components/Query';
 
 // Queries

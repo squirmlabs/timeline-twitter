@@ -27,10 +27,13 @@ class Tweet extends Component {
     const {
       data: { getTweets: tweets }
     } = this.props;
+
     const selectedTweet = tweets.find(tweet => tweet._id === _id);
     const currentTweet = {
       [_id]: selectedTweet.tweet
     };
+    console.log("TCL: Tweet -> currentTweet", currentTweet)
+    
     this.setState({
       currentTweet
     });
